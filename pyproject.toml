@@ -1,13 +1,15 @@
 [project]
-name = "ls -la"
+name = "auf"
 version = "0.1.0"
-description = "-"
+description = ""
 authors = [
     {name = "Meednight56",email = "iglamzikov@gmail.com"}
 ]
+license = {text = "1"}
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "requests (>=2.32.3,<3.0.0)"
 ]
 
 
